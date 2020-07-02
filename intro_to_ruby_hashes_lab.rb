@@ -1,6 +1,8 @@
 def base_hash
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
+  # return a hash with one key called :railroads that points to an empty hash
+  hash { :railroads => {} }
 
 end
 
