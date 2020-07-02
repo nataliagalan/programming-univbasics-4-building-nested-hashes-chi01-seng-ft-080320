@@ -5,7 +5,6 @@ def base_hash
   # keyword "return." Nice and neat.
   # return a hash with one key called :railroads that points to an empty hash
   hash = { :railroads => {} }
-binding.pry
 end
 
 def monopoly_with_second_tier
